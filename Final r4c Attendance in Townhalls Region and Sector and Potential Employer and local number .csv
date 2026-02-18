@@ -1,0 +1,91 @@
+Local,Region,Sector,Potential Employers Include
+106,1,Hospital Professionals (HPD),Hospital professional
+123,1,Court Services (MAG),Court and client representative
+154,1,OPS Unified,OPS Unified worker 
+162,1,Liquor Retail (LBED/LCBO),LCBO employee
+217,2,Municipalities,Municipal electrician 
+221,2,Court Services (MAG),"Legal admin, MAG"
+223,2,OPS Unified,OPS Ministry of Education worker
+224,2,OPS Unified,MCCSS caseworker 
+228,2,Court Services (MAG),MAG / CACC worker
+234,2,OPS Unified,OPS ministry worker
+241,2,College Support (CAAT-S),College co-op / support staff (Mohawk)
+248,2,Corrections (OPS),Correctional officer
+258,2,Children's Aid,Children's aid society worker 
+261,2,Long-Term Care,Personal support worker
+269,2,Community Agencies,"Social worker, home care (VON Hamilton)"
+281,2,Long-Term Care,Personal support worker 
+284,2,Liquor Retail (LBED/LCBO),LCBO employee
+304,3,Children's Aid,Children's aid society worker (York Region)
+312,3,Property Assessment (MPAC),MPAC property assessor
+340,3,OPS Unified,OPS Unified ministry worker
+348,3,Hospital Professionals (HPD),Lab tech / pharmacy tech (Lakeridge Health)
+365,3,Universities,University support staff (Trent University)
+367,3,Hospital Professionals (HPD),"Lab technologist, BPS hospital"
+376,3,Liquor Retail (LBED/LCBO),LCBO employee
+377,3,Liquor Retail (LBED/LCBO),LCBO employee
+383,3,Hospital Professionals (HPD),OTA/PTA (Orillia Soldiers' Memorial)
+386,3,Developmental Services,Developmental services worker (Newmarket)
+389,3,Healthcare,LifeLabs diagnostic services worker
+402,4,Hospital Professionals (HPD),Pharmacy technician
+410,4,OPS Unified,OPS ministry worker (Ottawa)
+423,4,Boards of Education,Education worker (Ottawa Catholic SB)
+424,4,Corrections (OPS),Correctional officer 
+428,4,OPS Unified,OPS ministry worker
+434,4,Developmental Services,Developmental services worker 
+439,4,Mental Health,Mental health worker 
+455,4,OPS Unified,OPS Unified ministry worker
+460,4,Mental Health,Children's mental health therapist
+494,4,Municipalities,Municipal case manager (Leeds & Grenville)
+500,5,Mental Health,Mental health worker (CAMH)
+504,5,OPS Unified,OPS multi-ministry worker
+524,5,Court Services (MAG),MAG justice worker
+526,5,Court Services (MAG),Court clerk and registrar
+527,5,Mixed OPS/BPS,"CMHA, WSIAT, MLITSD"
+534,5,OPS Unified,MCCSS caseworker (Family Responsibility Office)
+536,5,OPS Unified,Ministry of Transportation worker
+542,5,OPS Unified,MTO transportation worker
+546,5,OPS Unified,TSSA safety inspector
+548,5,Community Agencies,Community agency / mental health worker
+550,5,Developmental Services,Developmental/community services worker
+551,5,Court Services (MAG),MAG Court Services Division worker
+552,5,Property Assessment (MPAC),MPAC property assessor (Toronto)
+553,5,OPS Unified,"OPS multi-ministry worker (MECP, MNR)"
+558,5,College Faculty (CAAT-A),College professor (Centennial)
+559,5,College Support (CAAT-S),College support staff (Centennial)
+561,5,College Support (CAAT-S),College support staff
+563,5,College Support (CAAT-S),Financial aid officer (Humber College)
+568,5,Pension Agencies,OPTrust / Ontario Pension Board staff
+575,5,Hospital Professionals (HPD),Hospital professional
+579,5,OPS Unified,Technical staff (Solicitor General)
+580,5,OPS Unified,OPS caseworker (multi-ministry)
+582,5,Corrections (OPS),Correctional officer
+584,5,OPS Unified,OCWA water/wastewater worker
+585,5,OPS Unified,MLITSD inspector (Ministry of Labour)
+587,5,Healthcare,BPS healthcare worker
+590,5,Hospital Professionals (HPD),Hospital professional
+594,5,Community Agencies,Non-profit community support worker
+597,5,Community Agencies,Support services (Montage Support Services)
+613,6,College Faculty (CAAT-A),College professor (Sault College)
+617,6,Corrections (OPS),Correctional services worker
+632,6,OPS Unified,OPS Ministry of Municipal Affairs
+642,6,Corrections (OPS),Correctional officer / duty officer
+649,6,Corrections (OPS),Correctional officer (Monteith Complex)
+652,6,OPS Unified,OPS ministry worker (Region 6)
+665,6,Children's Aid,Child protection worker (NEOFACS)
+708,7,Corrections (OPS),Correctional officer (Thunder Bay)
+710,7,Court Services (MAG),MAG justice worker (Region 7)
+713,7,OPS Unified,MNR/AFFES wildland fire ranger
+715,7,Hospital Professionals (HPD),Hospital professional (Sector 10)
+720,7,Executive Board Member,"Composite local (SJCG, CMHA, Elevate NWO)"
+736,7,OPS Unified,OPS ministry worker (Region 7)
+740,7,Developmental Services,Developmental services support worker
+741,7,Liquor Retail (LBED/LCBO),LCBO employee (Thunder Bay)
+2100,2,Boards of Education,"Educator, school board education worker"
+2103,2,Boards of Education,"Lunchroom supervisor, local president"
+2200,2,Boards of Education,School board education worker
+4106,4,Hospital Professionals (HPD),Hospital professional (Kingston Health Sciences)
+4110,4,OPS Unified,OPS ministry worker (Region 4)
+5102,5,Developmental Services,Developmental services worker (DSW)
+5107,5,Liquor Retail (LBED/LCBO),LCBO employee
+5112,5,Corrections (OPS),Correctional officer
