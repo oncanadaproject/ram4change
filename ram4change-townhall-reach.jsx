@@ -1,4 +1,4 @@
-const { useState, useEffect, useRef } = React;
+import { useState, useEffect, useRef } from "react";
 
 const SECTOR_COLORS = {
   "Corrections": { bg: "rgba(220,166,148,0.20)", text: "#dca694" },
@@ -901,7 +901,7 @@ function SectorTag({ sector }) {
   );
 }
 
-function OntarioReachMap({ children = null }) {
+export default function OntarioReachMap({ children = null }) {
   const [selectedRegion, setSelectedRegion] = useState(null);
   const [hoveredRegion, setHoveredRegion] = useState(null);
   const [mapLoadErrors, setMapLoadErrors] = useState({});
@@ -1303,6 +1303,3 @@ function OntarioReachMap({ children = null }) {
     </div>
   );
 }
-
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<OntarioReachMap />);

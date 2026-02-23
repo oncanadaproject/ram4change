@@ -8,11 +8,65 @@
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
     <style>
-      html, body, #root { height: 100%; margin: 0; }
+      html, body { margin: 0; }
+      #root { min-height: 100vh; }
     </style>
   </head>
   <body>
     <div id="root"></div>
     <script type="text/babel" data-presets="react" src="./preview-app.jsx"></script>
+    <script>
+      (function () {
+        function measureHeight() {
+          var body = document.body;
+          var html = document.documentElement;
+          return Math.max(
+            body ? body.scrollHeight : 0,
+            body ? body.offsetHeight : 0,
+            html ? html.scrollHeight : 0,
+            html ? html.offsetHeight : 0
+          );
+        }
+
+        function postHeight() {
+          if (!window.parent || window.parent === window) return;
+          window.parent.postMessage(
+            { type: "ram4change:height", height: measureHeight() },
+            "*"
+          );
+        }
+
+        var rafId = null;
+        function schedulePost() {
+          if (rafId) cancelAnimationFrame(rafId);
+          rafId = requestAnimationFrame(postHeight);
+        }
+
+        window.addEventListener("load", function () {
+          schedulePost();
+          setTimeout(schedulePost, 120);
+          setTimeout(schedulePost, 500);
+        });
+        window.addEventListener("resize", schedulePost);
+        document.addEventListener(
+          "click",
+          function () {
+            setTimeout(schedulePost, 60);
+            setTimeout(schedulePost, 240);
+          },
+          true
+        );
+
+        var observer = new MutationObserver(schedulePost);
+        observer.observe(document.documentElement, {
+          childList: true,
+          subtree: true,
+          attributes: true,
+          characterData: true,
+        });
+
+        setInterval(postHeight, 1400);
+      })();
+    </script>
   </body>
 </html>
