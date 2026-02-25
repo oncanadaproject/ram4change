@@ -3,7 +3,6 @@ Local,Region,Sector,Potential Employers Include
 110,1,CAAT-Academic,(Fanshawe College Faculty)
 112,1,OPS Unified,CPRI (Child and Parent Resource Institute)
 123,1,Court Services (MAG),Court and client representative
-154,1,Unknown,
 154,1,OPS Unified,OPS Unified worker
 162,1,Liquor Retail (LBED/LCBO),LCBO employee
 205,2,Court Services (MAG),OPS
@@ -116,3 +115,4 @@ Local,Region,Sector,Potential Employers Include
 5107,5,Liquor Retail (LBED/LCBO),LCBO employee
 5110,5,Liquor Board Employees,LCBO (Liquor Control Board of Ontario)
 5112,5,Corrections (OPS),Correctional officer
+
