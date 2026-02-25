@@ -16,16 +16,15 @@
     <div id="root"></div>
     <script type="text/babel" data-presets="react" src="./preview-app.jsx"></script>
     <script>
+
       (function () {
-        function measureHeight() {
-          var body = document.body;
-          var html = document.documentElement;
-          return Math.max(
-            body ? body.scrollHeight : 0,
-            body ? body.offsetHeight : 0,
-            html ? html.scrollHeight : 0,
-            html ? html.offsetHeight : 0
-          );
+
+      function measureHeight() {
+  var root = document.getElementById("root");
+  var rootRectHeight = root ? Math.ceil(root.getBoundingClientRect().height) : 0;
+  var rootScrollHeight = root ? root.scrollHeight : 0;
+  return Math.max(rootRectHeight, rootScrollHeight);
+     );
         }
 
         function postHeight() {
